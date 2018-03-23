@@ -1948,6 +1948,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="wKGnU3YeUkiKcv3XdDvcOgAA">
 <XPD:ATTR name="Name" type="string">destroy</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">b781qHMSykmhlByHsNr7DgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">5</XPD:ATTR>
@@ -2135,11 +2136,13 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="VQiIiw8AtEO+LCqwNn8+7wAA">
-<XPD:ATTR name="Name" type="string">isDie</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">isBlock</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">+oBCvHGBDkigbeHTLHqU4gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[5]" type="UMLOperation" guid="kZ1proF5OUqnHYFUthCV/QAA">
-<XPD:ATTR name="Name" type="string">die</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">destroy</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">+oBCvHGBDkigbeHTLHqU4gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">7</XPD:ATTR>
@@ -2216,11 +2219,13 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="/8Um4CxLi0CIrG5X7+WjAwAA">
-<XPD:ATTR name="Name" type="string">demage</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">damage</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">RSQcmukO2kC3StAlAfKgggAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[5]" type="UMLOperation" guid="MWoL4gsjQUm925KLuxz0CgAA">
-<XPD:ATTR name="Name" type="string">canDemage</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">isBlock</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">RSQcmukO2kC3StAlAfKgggAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>
@@ -2266,7 +2271,7 @@
 <XPD:REF name="Views[1]">5yEW7zyKxE6kJSVwm70/IAAA</XPD:REF>
 <XPD:REF name="Views[2]">wuCLY4mVxUqi+6cC8/NLiwAA</XPD:REF>
 <XPD:REF name="Views[3]">Q3NbZo+Dk0CE+CERLcNIrQAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">6</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="/0klrOYZkUSpYHhJP838rAAA">
 <XPD:ATTR name="Name" type="string">destroy</XPD:ATTR>
 <XPD:REF name="Owner">UWHVqLc2H0q4OVKSq/0ZKQAA</XPD:REF>
@@ -2305,21 +2310,14 @@
 <XPD:ATTR name="Name" type="string">move</XPD:ATTR>
 <XPD:REF name="Owner">UWHVqLc2H0q4OVKSq/0ZKQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[3]" type="UMLOperation" guid="RntjCJ+wmk2ppWa2JhOfVwAA">
-<XPD:ATTR name="Name" type="string">canMove</XPD:ATTR>
-<XPD:REF name="Owner">UWHVqLc2H0q4OVKSq/0ZKQAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="IUMZ9JYJ+0q9g6rmgCNgmAAA">
-<XPD:ATTR name="Name" type="string">dir</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">RntjCJ+wmk2ppWa2JhOfVwAA</XPD:REF>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="k/FP14U86Ei10/Md2Zq4XwAA">
+<XPD:OBJ name="Operations[3]" type="UMLOperation" guid="k/FP14U86Ei10/Md2Zq4XwAA">
 <XPD:ATTR name="Name" type="string">destroy</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">UWHVqLc2H0q4OVKSq/0ZKQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[5]" type="UMLOperation" guid="R9kiIbSq/0uocICZPi5OvgAA">
-<XPD:ATTR name="Name" type="string">canDestroy</XPD:ATTR>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="R9kiIbSq/0uocICZPi5OvgAA">
+<XPD:ATTR name="Name" type="string">isBlock</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Owner">UWHVqLc2H0q4OVKSq/0ZKQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">9</XPD:ATTR>
